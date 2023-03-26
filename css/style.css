@@ -1,0 +1,496 @@
+body {
+    background-color: #F5F5F5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fs-28 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.fw-400 {
+    font-weight: 400;
+    color: #4e4e4e;
+    line-height: 32px;
+}
+
+.fs-48 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+.pargraph {
+    color: #4e4e4e;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+nav {
+    z-index: 9999;
+}
+
+header {
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header .layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+header h3::after {
+    content: "|";
+    position: relative;
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes typing {
+    1% {
+        content: 'P|'
+    }
+    2.5% {
+        content: 'Ph|'
+    }
+    4% {
+        content: 'Pho|'
+    }
+    5.5% {
+        content: 'Phot|'
+    }
+    7% {
+        content: 'Photo|'
+    }
+    8.5% {
+        content: 'Photog|'
+    }
+    10% {
+        content: 'Photogr|'
+    }
+    11.5% {
+        content: 'Photogra|'
+    }
+    13% {
+        content: 'Photograp|'
+    }
+    14.5% {
+        content: 'Photograph|'
+    }
+    16% {
+        content: 'Photographe|'
+    }
+    17.5% {
+        content: 'Photographer|'
+    }
+    19% {
+        content: 'Photographe|'
+    }
+    21.5% {
+        content: 'Photograph|'
+    }
+    23% {
+        content: 'Photograp|'
+    }
+    24.5% {
+        content: 'Photogra|'
+    }
+    26% {
+        content: 'Photogr|'
+    }
+    27.5% {
+        content: 'Photog|'
+    }
+    29% {
+        content: 'Photo|'
+    }
+    31.5% {
+        content: 'Phot|'
+    }
+    33% {
+        content: 'Pho|'
+    }
+    34.5% {
+        content: 'Ph|'
+    }
+    36% {
+        content: 'P|'
+    }
+    37.5% {
+        content: '|'
+    }
+    39% {
+        content: 'D|'
+    }
+    40.5% {
+        content: 'De|'
+    }
+    42% {
+        content: 'Des|'
+    }
+    43.5% {
+        content: 'Desi|'
+    }
+    45% {
+        content: 'Desig|'
+    }
+    46.5% {
+        content: 'Design|'
+    }
+    48% {
+        content: 'Designe|'
+    }
+    49.5% {
+        content: 'Designer|'
+    }
+    51% {
+        content: 'Designe|'
+    }
+    52.5% {
+        content: 'Design|'
+    }
+    54% {
+        content: 'Desig|'
+    }
+    55.5% {
+        content: 'Desi|'
+    }
+    57% {
+        content: 'Des|'
+    }
+    58.5% {
+        content: 'De|'
+    }
+    60% {
+        content: 'D|'
+    }
+    61.5% {
+        content: '|'
+    }
+    63% {
+        content: 'D|'
+    }
+    64.5% {
+        content: 'De|'
+    }
+    66% {
+        content: 'Dev|'
+    }
+    67.5% {
+        content: 'Deve|'
+    }
+    69% {
+        content: 'Devel|'
+    }
+    70.5% {
+        content: 'Develo|'
+    }
+    72% {
+        content: 'Develop|'
+    }
+    73.5% {
+        content: 'Develope|'
+    }
+    75% {
+        content: 'Developer|'
+    }
+    76.5% {
+        content: 'Develope|'
+    }
+    78% {
+        content: 'Develop|'
+    }
+    79.5% {
+        content: 'Develo|'
+    }
+    81% {
+        content: 'Devel|'
+    }
+    82.5% {
+        content: 'Deve|'
+    }
+    84% {
+        content: 'Dev|'
+    }
+    86% {
+        content: 'De|'
+    }
+    88% {
+        content: 'D|'
+    }
+    100% {
+        content: '|'
+    }
+}
+
+.ratio-height100 {
+    height: 10px;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-85 {
+    width: 85%;
+    height: 10px;
+}
+
+.font-weight-600 {
+    font-weight: bolder;
+}
+
+.color-blue-text {
+    color: #0078ff;
+}
+
+.color-blue-bg {
+    background-color: #0078ff;
+}
+
+.color-light {
+    background-color: #CDE1F8;
+}
+
+#about h2 {
+    position: relative;
+}
+
+#about h2::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #0078ff;
+    left: 0;
+    top: 100%;
+}
+
+.caption1 {
+    position: relative;
+}
+
+.caption1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -40%;
+    background-color: #0078ff;
+    width: 50px;
+    height: 5px;
+    transform: translate(-50%, -50%);
+}
+
+#work i {
+    border: 10px solid #CDE1F8;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+#work {
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#services i {
+    border: 10px solid #0078FF;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 30px;
+    font-size: 25px;
+    margin: 20px 0;
+    transition: all 1s;
+}
+
+#services i:hover {
+    border: 10px solid #CDE1F8;
+    color: white;
+    background-color: #0078FF;
+}
+
+.blue-bckg {
+    background-color: rgba(0, 120, 255, .5);
+}
+
+#portfolio .imghover {
+    overflow: hidden;
+    position: relative;
+}
+
+#portfolio .imghover::after {
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    width: 20px;
+    height: 3px;
+    background-color: #0078ff;
+}
+
+#portfolio .imghover::before {
+    content: "";
+    position: absolute;
+    bottom: 31px;
+    right: 29px;
+    width: 3px;
+    height: 20px;
+    background-color: #0078ff;
+}
+
+.circle {
+    position: relative;
+}
+
+.circle::after {
+    content: "";
+    position: absolute;
+    right: 11PX;
+    bottom: 22PX;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0078ff;
+    border-radius: 50%;
+}
+
+.img-contain {
+    overflow: hidden;
+}
+
+#portfolio img {
+    transition: all 2s;
+}
+
+#portfolio .imghover:hover img {
+    transform: scale(1.3);
+}
+
+#slider,
+#contact {
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.blog-img1 {
+    position: relative;
+}
+
+.blog-img1::after {
+    content: "travel";
+    position: absolute;
+    background-color: #0078ff;
+    color: white;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+.blog-img2 {
+    position: relative;
+}
+
+.blog-img2::after {
+    content: "web design";
+    position: absolute;
+    background-color: #0078ff;
+    color: white;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+.blog-img3 {
+    position: relative;
+}
+
+.blog-img3::after {
+    content: "web design";
+    position: absolute;
+    background-color: #0078ff;
+    color: white;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+.social-media i {
+    border: 4px solid #0078ff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 5px;
+    transition: all 1s;
+}
+
+.social-media i:hover {
+    border: 4px solid #CDE1F8;
+    background-color: #0078ff;
+    color: white;
+}
+
+#contact .btn {
+    color: white;
+    background-color: #0078ff;
+    padding: 10px 15px;
+    border: 4px solid #0078ff;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+#contact .btn:hover {
+    border: 4px solid #CDE1F8;
+    opacity: 0.8;
+}
+
+#contact h2 {
+    position: relative;
+}
+
+#contact h2::after {
+    content: "";
+    position: absolute;
+    background-color: #0078ff;
+    width: 100px;
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+}
+
+footer {
+    background-color: #0062D3;
+}
+
+.carousel-indicators {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
